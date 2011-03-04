@@ -22,7 +22,8 @@ while (my $line = <DATA>) {
 
         my $func = Crypt::Camellia->new($key);
         my $ct = $func->encrypt($plain);
-        ok($ct eq $cipher);
+        my $pt = $func->decrypt($cipher);
+        ok($ct eq $cipher && $pt eq $plain);
     }
     else {
         next;

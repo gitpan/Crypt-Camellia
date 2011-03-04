@@ -1,6 +1,9 @@
 #
 #  Revision history for Perl extension Crypt::Camellia.
 #
+2.02  Fri Mar  4 12:31:43 JST 2011
+	- Replace the cipher engine version 1.2.0.
+
 2.01  Fri Oct 20 00:23:52 2006
 	- Replaced the cipher engine of version 1.1.0.
 	- Fixed byte-order problem on SPARC.

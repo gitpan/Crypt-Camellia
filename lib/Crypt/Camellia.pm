@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Carp;
 
-our $VERSION = '2.01';
+our $VERSION = '2.02';
 
 require XSLoader;
 XSLoader::load('Crypt::Camellia', $VERSION);
